@@ -31,6 +31,8 @@ module ActiveRecord
   #
   #   Conversation.active
   #   Conversation.archived
+  #   Conversation.not_active
+  #   Conversation.not_archived
   #
   # Of course, you can also query them directly if the scopes doesn't fit your
   # needs:
